@@ -246,17 +246,3 @@ This project integrates:
 
 It is a complete **Smart Room Automation System**, fully deployable and scalable.
 
----
-
-## 🙋 Want additional documentation?
-
-I can generate:
-
-* Circuit diagram
-* Block diagram
-* Flow chart
-* Abstract
-* Project report PDF
-* Demo presentation slides
-
-Just tell me what you need!

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Room Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Smart Room Infrastructure</h1>
+
+  <div class="grid">
+    <div>🌡 Temperature: <span id="temp">--</span></div>
+    <div>💧 Humidity: <span id="hum">--</span></div>
+    <div>🌫 AQI: <span id="aqi">--</span></div>
+    <div>🚶 Motion: <span id="motion">--</span></div>
+    <div>🔥 Flame: <span id="flame">--</span></div>
+    <div>👥 Occupancy: <span id="occ">--</span></div>
+    <div>⚙ Mode: <span id="mode">--</span></div>
+  </div>
+
+  <div class="controls">
+    <button onclick="autoMode()">Auto Mode</button>
+    <button onclick="manualMode()">Manual Mode</button>
+    <button onclick="fanOn()">Fan ON</button>
+    <button onclick="fanOff()">Fan OFF</button>
+    <button onclick="toggleTheme()">Toggle Theme</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
